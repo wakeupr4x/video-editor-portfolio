@@ -1,5 +1,5 @@
-import React, { useRef, useState, useEffect } from 'react';
-import { VIDEOS, type VideoItem } from '../data/videos';
+import React, { useRef, useState } from 'react';
+import { VIDEOS } from '../data/videos';
 
 export const VerticalCarousel: React.FC = () => {
   const scrollRef = useRef<HTMLDivElement>(null);

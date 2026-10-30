@@ -806,7 +806,7 @@ export function SplashCursor({
       gl.enable(gl.BLEND);
       for (let i = bloomChain.length - 2; i >= 0; i--) {
         const target = bloomChain[i];
-        gl.uniform2f(u.texelSize, last.texX ?? target.texelX, last.texY ?? target.texelY);
+        gl.uniform2f(u.texelSize, last.texelX, last.texelY);
         gl.uniform1i(u.uTexture, last.attach(0));
         blit(target);
         last = target;
