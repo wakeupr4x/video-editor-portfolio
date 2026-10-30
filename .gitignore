@@ -23,8 +23,6 @@ dist-ssr
 *.sln
 *.sw?
 
-# Media & Videos (Exceeds GitHub 100MB limit; use external Drive/CDN)
+# Local uncompressed backup folder
 Myvideos/
-*.mp4
-*.mov
 
